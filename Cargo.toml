@@ -1,0 +1,12 @@
+[package]
+name = "mdViewer"
+version = "0.1.0"
+authors = ["marsh31 <marsh22h53@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "0.2", features = ["full"] }
+warp = "0.2"
+futures = { version = "0.3", default-features = false, features = ["alloc"] }
